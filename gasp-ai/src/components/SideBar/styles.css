@@ -1,0 +1,128 @@
+.sidebarWrap {
+  height: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+}
+
+.brandName {
+  font-weight: 750;
+  letter-spacing: 0.2px;
+}
+
+.brandSub {
+  font-size: 12px;
+  color: var(--muted2);
+  margin-top: 2px;
+}
+
+.newChatBtn {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.newChatBtn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.searchBox {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 14px;
+  padding: 10px 12px;
+  color: var(--text);
+  outline: none;
+  width: 100%;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.3px;
+  margin-top: 6px;
+}
+
+.conversations {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.groupTitle {
+  font-size: 11px;
+  color: var(--muted2);
+  margin: 10px 0 4px;
+}
+
+.conversationItem {
+  text-align: left;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  padding: 10px 10px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.conversationItem:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.conversationItem.isActive {
+  background: rgba(124, 92, 255, 0.1);
+  border-color: rgba(124, 92, 255, 0.24);
+}
+
+.conversationTitle {
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conversationMeta {
+  font-size: 12px;
+  color: var(--muted2);
+  margin-top: 4px;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.sidebarLink {
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.sidebarLink:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+}
